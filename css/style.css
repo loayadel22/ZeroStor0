@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* .b-img{
+    background-image: url(../image/ajvx-k-3.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+} */
+/* ************************************************************************* */
+.pj6{
+    background-image: url(../image/pexels-mike-bird-120049.jpg);
+    width: 100%;
+
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.pj6-overly{
+    width:100% ;
+    height: 350px;
+}
+.pj6-countent{
+    width:100% ;
+    height: 350px;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    
+}
+/* *********************************************************************** */
+
+.card-css{
+    margin-left: 150px;
+    margin-top: 30px;
+   /* justify-content: space-around; */
+   position: relative;
+   
+} 
+ /* @media(min-width: 768px)
+ {
+    .card-css{
+        flex: 0 0 auto;
+    width: 33.33333333%;
+    }
+ } */
+
+.card-css h5{
+    color: black;
+}
+.card-css::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 80);
+    opacity: 0;
+    transition: 1s;
+    
+}
+.card-css:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+
+}
+
+.card-css::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(0, 0, 80);
+    opacity: 0;
+    transition: 1s;
+    z-index: 1;
+    
+}
+.card-css:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+
+}
+  
+/* ************************************************************************* */
+.pj8{
+    background-image: url(../image/pexels-pavlo-luchkovski-337909.jpg);
+    width: 100%;
+
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.pj8-overly{
+    width:100% ;
+    height: 350px;
+}
+.pj8-countent{
+    width:100% ;
+    height: 350px;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    
+}
+/* *********************************************************************** */
+.thanks-div{
+    text-align:center;
+}
+.thanks-text{
+    background: linear-gradient(to top, #d84641, #9b59b6, #0011ff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+
+/* ************************************************************************************ */
+
+
+.div5{
+    height: 100vh;
+    /* background-color:rebeccapurple; */
+    margin-top: 200px;
+    transition: 0.5s;
+
+}
+.row-div5{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    transition: 0.5s;
+    /* display: flex; */
+    
+
+}
+
+.div5-img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 30px;
+    margin: auto;
+    transition: 0.5s;
+}
+.img1{
+    background-image: url("../image/loay1.jpg");
+    
+    
+}
+.img2{
+    background-image: url("../image/loay2.jpg");
+}
+.img3{
+    background-image: url("../image/loay3.jpg");
+    
+}
+
+.overlay-div5{
+    height: 100%; 
+    width: 100%;
+    background-image: linear-gradient(rgba(12, 6, 35, 0.689) , rgba(0, 0, 0, 0.386) , rgba(7, 8, 39, 0.184));
+    transition: 0.5s;
+    border-radius: 30px;
+
+}
+
+.div5-img:hover .overlay-div5{
+    background-image: linear-gradient(rgb(32, 24, 24,0.61) ,rgba(0, 0, 0, 0.425) ,rgba(8, 15, 5, 0))  ;
+    transition: 0.5s;
+
+}
+.div5-img:hover{
+    transform: scale(0.9 , 0.9);
+    transition: 0.5s;
+}
+
+.card-body{
+    transition: 0.2s;
+}
+.div5-img:hover .card-body{
+    margin-top: 30px;
+    transition: 0.2s;
+}
+
+.card-title{
+    text-align: center;
+    padding-top: 30px;
+    color: aliceblue;
+}
+.card-img2{
+    margin-top: 90%;
+    margin-left: 10%;
+    color: aliceblue;
+}
+
+.div5-card h6{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px  rgb(255, 255, 255);
+}
+
+
+/* *********************************************************************** */
+
+
+.bo-clip{
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translate(-50%,0);
+}
+.img-clip1{
+    clip-path: polygon(15% 0,100% 0,100% 100%,0 100%);
+}
+.hav-clip:hover .img-clip1{
+    
+    transform: scale(1.1 , 1.1);
+    transition: 0.3s;
+}
+ .footer a{
+    text-decoration: none;
+    color: rgb(148, 18, 18);
+ }
+ .footer{
+    background-color:lightgray ;
+ }
